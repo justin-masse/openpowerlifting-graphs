@@ -1,0 +1,19 @@
+{
+	"name": "open-powerlifting-graphs",
+	"description": "Openpowerlifting CSV data converted into useable graphs",
+	"license": "UNLICENSED",
+	"private": false,
+	"devDependencies": {
+		"@types/node": "^18.*",
+		"aws-cdk": "^2.139.1",
+		"aws-cdk-lib": "^2.139.1",
+		"constructs": "^10.3.0",
+		"dotenv": "^16.4.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {},
+	"scripts": {
+		"cdk": "./node_modules/.bin/cdk"
+	}
+}
