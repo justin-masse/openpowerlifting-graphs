@@ -1,3 +1,4 @@
 .csv
-data.csv
+powerlifting_data.csv
 node_modules
+myenv/

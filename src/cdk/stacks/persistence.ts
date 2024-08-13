@@ -1,4 +1,4 @@
-import { Stack, aws_dynamodb as ddb, aws_iam as iam } from 'aws-cdk-lib'
+import { Stack, aws_dynamodb as ddb } from 'aws-cdk-lib'
 import type { App, StackProps } from 'aws-cdk-lib'
 
 export class PersistenceStack extends Stack {
@@ -9,11 +9,11 @@ export class PersistenceStack extends Stack {
     const relayProxyTable = new ddb.Table(this, `openpowerlifting-graphs-table`, {
       tableName: `openpowerlifting-graphs`,
       partitionKey: {
-        name: 'namespace',
+        name: 'Name',
         type: ddb.AttributeType.STRING,
       },
       sortKey: {
-        name: 'key',
+        name: 'Date',
         type: ddb.AttributeType.STRING,
       },
       billingMode: ddb.BillingMode.PAY_PER_REQUEST,
