@@ -9,7 +9,7 @@ session = boto3.Session(profile_name=profile_name)
 
 # Initialize the DynamoDB resource using the session
 dynamodb = session.resource('dynamodb', region_name='us-east-1')
-table_name = "powerlifting-test"
+table_name = "openpowerlifting-test"
 table = dynamodb.Table(table_name)
 
 def safe_convert_to_int(value):
@@ -33,45 +33,38 @@ def filter_and_prepare_item(row):
     meet_year = row['Date'][:4]
     meet_year_int = safe_convert_to_int(meet_year)
 
-    # Apply filters
-    if (meet_year_int >= 2004 and
-        row['Sex'] == 'M' and
-        row['Event'] == 'SBD' and
-        row['Equipment'] in ['Raw', 'Wraps']):
-        
-        # Prepare the item to be inserted into DynamoDB
-        item = {
-            "Name": row['Name'],
-            "Equipment": row['Equipment'],
-            "Age": safe_convert_to_int(row['Age']),
-            "AgeClass": row['AgeClass'],
-            "BirthYearClass": row['BirthYearClass'],
-            "Division": row['Division'],
-            "BodyweightKg": safe_convert_to_decimal(row['BodyweightKg']),
-            "WeightClassKg": safe_convert_to_decimal(row['WeightClassKg']),
-            "Squat1Kg": safe_convert_to_decimal(row['Squat1Kg']),
-            "Squat2Kg": safe_convert_to_decimal(row['Squat2Kg']),
-            "Squat3Kg": safe_convert_to_decimal(row['Squat3Kg']),
-            "Best3SquatKg": safe_convert_to_decimal(row['Best3SquatKg']),
-            "Bench1Kg": safe_convert_to_decimal(row['Bench1Kg']),
-            "Bench2Kg": safe_convert_to_decimal(row['Bench2Kg']),
-            "Bench3Kg": safe_convert_to_decimal(row['Bench3Kg']),
-            "Best3BenchKg": safe_convert_to_decimal(row['Best3BenchKg']),
-            "Deadlift1Kg": safe_convert_to_decimal(row['Deadlift1Kg']),
-            "Deadlift2Kg": safe_convert_to_decimal(row['Deadlift2Kg']),
-            "Deadlift3Kg": safe_convert_to_decimal(row['Deadlift3Kg']),
-            "Best3DeadliftKg": safe_convert_to_decimal(row['Best3DeadliftKg']),
-            "TotalKg": safe_convert_to_decimal(row['TotalKg']),
-            "Dots": safe_convert_to_decimal(row['Dots']),
-            "Federation": row['Federation'],
-            "ParentFederation": row['ParentFederation'],
-            "Date": row['Date'],
-            "MeetYear": meet_year_int,
-            "MeetName": row['MeetName'],
-            "Sanctioned": row['Sanctioned']
-        }
-        return item
-    return None
+    # Prepare the item to be inserted into DynamoDB
+    return {
+        "Name": row['Name'],
+        "Equipment": row['Equipment'],
+        "Age": safe_convert_to_int(row['Age']),
+        "AgeClass": row['AgeClass'],
+        "BirthYearClass": row['BirthYearClass'],
+        "Division": row['Division'],
+        "BodyweightKg": safe_convert_to_decimal(row['BodyweightKg']),
+        "WeightClassKg": safe_convert_to_decimal(row['WeightClassKg']),
+        "Squat1Kg": safe_convert_to_decimal(row['Squat1Kg']),
+        "Squat2Kg": safe_convert_to_decimal(row['Squat2Kg']),
+        "Squat3Kg": safe_convert_to_decimal(row['Squat3Kg']),
+        "Best3SquatKg": safe_convert_to_decimal(row['Best3SquatKg']),
+        "Bench1Kg": safe_convert_to_decimal(row['Bench1Kg']),
+        "Bench2Kg": safe_convert_to_decimal(row['Bench2Kg']),
+        "Bench3Kg": safe_convert_to_decimal(row['Bench3Kg']),
+        "Best3BenchKg": safe_convert_to_decimal(row['Best3BenchKg']),
+        "Deadlift1Kg": safe_convert_to_decimal(row['Deadlift1Kg']),
+        "Deadlift2Kg": safe_convert_to_decimal(row['Deadlift2Kg']),
+        "Deadlift3Kg": safe_convert_to_decimal(row['Deadlift3Kg']),
+        "Best3DeadliftKg": safe_convert_to_decimal(row['Best3DeadliftKg']),
+        "TotalKg": safe_convert_to_decimal(row['TotalKg']),
+        "Dots": safe_convert_to_decimal(row['Dots']),
+        "Federation": row['Federation'],
+        "ParentFederation": row['ParentFederation'],
+        "Date": row['Date'],
+        "MeetYear": meet_year_int,
+        "MeetName": row['MeetName'],
+        "Sanctioned": row['Sanctioned']
+    }
+
 
 def write_to_dynamodb(items):
     # Track unique items by Name and Date
