@@ -36,28 +36,9 @@ def filter_and_prepare_item(row):
             "Division": row['Division'],
             "BodyweightKg": safe_convert_to_decimal(row['BodyweightKg']),
             "WeightClassKg": safe_convert_to_decimal(row['WeightClassKg']),
-            "Squat1Kg": safe_convert_to_decimal(row['Squat1Kg']),
-            "Squat2Kg": safe_convert_to_decimal(row['Squat2Kg']),
-            "Squat3Kg": safe_convert_to_decimal(row['Squat3Kg']),
-            "Best3SquatKg": safe_convert_to_decimal(row['Best3SquatKg']),
-            "Bench1Kg": safe_convert_to_decimal(row['Bench1Kg']),
-            "Bench2Kg": safe_convert_to_decimal(row['Bench2Kg']),
-            "Bench3Kg": safe_convert_to_decimal(row['Bench3Kg']),
-            "Best3BenchKg": safe_convert_to_decimal(row['Best3BenchKg']),
-            "Deadlift1Kg": safe_convert_to_decimal(row['Deadlift1Kg']),
-            "Deadlift2Kg": safe_convert_to_decimal(row['Deadlift2Kg']),
-            "Deadlift3Kg": safe_convert_to_decimal(row['Deadlift3Kg']),
-            "Best3DeadliftKg": safe_convert_to_decimal(row['Best3DeadliftKg']),
             "TotalKg": safe_convert_to_decimal(row['TotalKg']),
             "Dots": safe_convert_to_decimal(row['Dots']),
-            "Country": row['Country'],
-            "State": row['State'],
-            "Federation": row['Federation'],
-            "ParentFederation": row['ParentFederation'],
             "Date": row['Date'],
-            "MeetCountry": row['MeetCountry'],
-            "MeetName": row['MeetName'],
-            "Sanctioned": row['Sanctioned']
         }
         return item
     return None
@@ -81,8 +62,8 @@ def process_csv(input_file_path, output_file_path):
         reader = csv.DictReader(csvfile)
         for row in reader:
             item = filter_and_prepare_item(row)
-            if item:
-                key = (item['Name'], item['MeetYear'])
+            if item and 'TotalKg' in item and item['TotalKg']:
+                key = (item['Name'], item['MeetYear'], item['WeightClassKg'])
                 existing_item = unique_items.get(key)
                 if existing_item:
                     # Compare TotalKg to keep the highest one, handling None values

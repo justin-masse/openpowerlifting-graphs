@@ -1,0 +1,430 @@
+{
+  "75kg": [
+    {
+      "meetYear": "2004",
+      "meanTotalKg": 420.29312500000015,
+      "medianTotalKg": 418.53499999999997
+    },
+    {
+      "meetYear": "2005",
+      "meanTotalKg": 410.3791071428575,
+      "medianTotalKg": 410.5
+    },
+    {
+      "meetYear": "2006",
+      "meanTotalKg": 431.2881132075473,
+      "medianTotalKg": 441.12
+    },
+    {
+      "meetYear": "2007",
+      "meanTotalKg": 408.0733000000001,
+      "medianTotalKg": 410
+    },
+    {
+      "meetYear": "2008",
+      "meanTotalKg": 470.68364999999983,
+      "medianTotalKg": 464.96500000000003
+    },
+    {
+      "meetYear": "2009",
+      "meanTotalKg": 517.7477499999999,
+      "medianTotalKg": 507.5
+    },
+    {
+      "meetYear": "2010",
+      "meanTotalKg": 544.2543499999999,
+      "medianTotalKg": 535
+    },
+    {
+      "meetYear": "2011",
+      "meanTotalKg": 568.50165,
+      "medianTotalKg": 560
+    },
+    {
+      "meetYear": "2012",
+      "meanTotalKg": 578.8308500000002,
+      "medianTotalKg": 570.5
+    },
+    {
+      "meetYear": "2013",
+      "meanTotalKg": 600.49645,
+      "medianTotalKg": 587.5
+    },
+    {
+      "meetYear": "2014",
+      "meanTotalKg": 626.7972999999998,
+      "medianTotalKg": 620
+    },
+    {
+      "meetYear": "2015",
+      "meanTotalKg": 647.8557,
+      "medianTotalKg": 637.4
+    },
+    {
+      "meetYear": "2016",
+      "meanTotalKg": 651.9972499999999,
+      "medianTotalKg": 645
+    },
+    {
+      "meetYear": "2017",
+      "meanTotalKg": 666.7404000000001,
+      "medianTotalKg": 658.75
+    },
+    {
+      "meetYear": "2018",
+      "meanTotalKg": 675.15055,
+      "medianTotalKg": 668.75
+    },
+    {
+      "meetYear": "2019",
+      "meanTotalKg": 678.5070999999999,
+      "medianTotalKg": 670
+    },
+    {
+      "meetYear": "2020",
+      "meanTotalKg": 656.5376,
+      "medianTotalKg": 645
+    },
+    {
+      "meetYear": "2021",
+      "meanTotalKg": 679.38395,
+      "medianTotalKg": 670
+    },
+    {
+      "meetYear": "2022",
+      "meanTotalKg": 695.2034,
+      "medianTotalKg": 687.5
+    },
+    {
+      "meetYear": "2023",
+      "meanTotalKg": 704.98785,
+      "medianTotalKg": 700
+    },
+    {
+      "meetYear": "2024",
+      "meanTotalKg": 693.9675,
+      "medianTotalKg": 685
+    }
+  ],
+  "82.5kg": [
+    {
+      "meetYear": "2004",
+      "meanTotalKg": 450.2565333333334,
+      "medianTotalKg": 452.455
+    },
+    {
+      "meetYear": "2005",
+      "meanTotalKg": 443.805706806283,
+      "medianTotalKg": 445
+    },
+    {
+      "meetYear": "2006",
+      "meanTotalKg": 472.61423312883426,
+      "medianTotalKg": 480.81
+    },
+    {
+      "meetYear": "2007",
+      "meanTotalKg": 477.44340000000005,
+      "medianTotalKg": 470
+    },
+    {
+      "meetYear": "2008",
+      "meanTotalKg": 534.62465,
+      "medianTotalKg": 522.065
+    },
+    {
+      "meetYear": "2009",
+      "meanTotalKg": 572.5987,
+      "medianTotalKg": 552.94
+    },
+    {
+      "meetYear": "2010",
+      "meanTotalKg": 603.2090499999999,
+      "medianTotalKg": 594.605
+    },
+    {
+      "meetYear": "2011",
+      "meanTotalKg": 624.18185,
+      "medianTotalKg": 611.175
+    },
+    {
+      "meetYear": "2012",
+      "meanTotalKg": 639.52015,
+      "medianTotalKg": 627.5
+    },
+    {
+      "meetYear": "2013",
+      "meanTotalKg": 660.8552000000002,
+      "medianTotalKg": 651.7049999999999
+    },
+    {
+      "meetYear": "2014",
+      "meanTotalKg": 683.5898,
+      "medianTotalKg": 670
+    },
+    {
+      "meetYear": "2015",
+      "meanTotalKg": 713.9621500000001,
+      "medianTotalKg": 700
+    },
+    {
+      "meetYear": "2016",
+      "meanTotalKg": 709.9320499999999,
+      "medianTotalKg": 700.4
+    },
+    {
+      "meetYear": "2017",
+      "meanTotalKg": 725.5783,
+      "medianTotalKg": 712.5
+    },
+    {
+      "meetYear": "2018",
+      "meanTotalKg": 732.14425,
+      "medianTotalKg": 718.72
+    },
+    {
+      "meetYear": "2019",
+      "meanTotalKg": 739.15495,
+      "medianTotalKg": 725
+    },
+    {
+      "meetYear": "2020",
+      "meanTotalKg": 716.6709,
+      "medianTotalKg": 707
+    },
+    {
+      "meetYear": "2021",
+      "meanTotalKg": 740.7841500000001,
+      "medianTotalKg": 730
+    },
+    {
+      "meetYear": "2022",
+      "meanTotalKg": 750.9418500000002,
+      "medianTotalKg": 740
+    },
+    {
+      "meetYear": "2023",
+      "meanTotalKg": 756.68335,
+      "medianTotalKg": 747.5
+    },
+    {
+      "meetYear": "2024",
+      "meanTotalKg": 739.5894999999999,
+      "medianTotalKg": 732.5
+    }
+  ],
+  "90kg": [
+    {
+      "meetYear": "2004",
+      "meanTotalKg": 484.1353999999997,
+      "medianTotalKg": 490
+    },
+    {
+      "meetYear": "2005",
+      "meanTotalKg": 473.3516326530609,
+      "medianTotalKg": 472
+    },
+    {
+      "meetYear": "2006",
+      "meanTotalKg": 518.2492934782606,
+      "medianTotalKg": 517.3
+    },
+    {
+      "meetYear": "2007",
+      "meanTotalKg": 529.5680999999997,
+      "medianTotalKg": 527.97
+    },
+    {
+      "meetYear": "2008",
+      "meanTotalKg": 585.0401499999998,
+      "medianTotalKg": 576.06
+    },
+    {
+      "meetYear": "2009",
+      "meanTotalKg": 624.5289999999999,
+      "medianTotalKg": 608.905
+    },
+    {
+      "meetYear": "2010",
+      "meanTotalKg": 651.4074000000002,
+      "medianTotalKg": 635.03
+    },
+    {
+      "meetYear": "2011",
+      "meanTotalKg": 668.0052500000004,
+      "medianTotalKg": 661.12
+    },
+    {
+      "meetYear": "2012",
+      "meanTotalKg": 687.0745500000002,
+      "medianTotalKg": 675.425
+    },
+    {
+      "meetYear": "2013",
+      "meanTotalKg": 703.6724000000002,
+      "medianTotalKg": 695
+    },
+    {
+      "meetYear": "2014",
+      "meanTotalKg": 727.5768499999997,
+      "medianTotalKg": 717.5
+    },
+    {
+      "meetYear": "2015",
+      "meanTotalKg": 752.3273000000002,
+      "medianTotalKg": 745
+    },
+    {
+      "meetYear": "2016",
+      "meanTotalKg": 755.5974000000001,
+      "medianTotalKg": 745
+    },
+    {
+      "meetYear": "2017",
+      "meanTotalKg": 767.3358000000001,
+      "medianTotalKg": 752.73
+    },
+    {
+      "meetYear": "2018",
+      "meanTotalKg": 777.28495,
+      "medianTotalKg": 765
+    },
+    {
+      "meetYear": "2019",
+      "meanTotalKg": 784.8532499999997,
+      "medianTotalKg": 772.5
+    },
+    {
+      "meetYear": "2020",
+      "meanTotalKg": 764.19295,
+      "medianTotalKg": 747.9649999999999
+    },
+    {
+      "meetYear": "2021",
+      "meanTotalKg": 787.07875,
+      "medianTotalKg": 772.5
+    },
+    {
+      "meetYear": "2022",
+      "meanTotalKg": 792.9264999999999,
+      "medianTotalKg": 780
+    },
+    {
+      "meetYear": "2023",
+      "meanTotalKg": 799.2944,
+      "medianTotalKg": 788.625
+    },
+    {
+      "meetYear": "2024",
+      "meanTotalKg": 775.5979500000001,
+      "medianTotalKg": 765
+    }
+  ],
+  "100kg": [
+    {
+      "meetYear": "2004",
+      "meanTotalKg": 531.980074074074,
+      "medianTotalKg": 535.24
+    },
+    {
+      "meetYear": "2005",
+      "meanTotalKg": 502.4098863636362,
+      "medianTotalKg": 505.76
+    },
+    {
+      "meetYear": "2006",
+      "meanTotalKg": 546.8938541666666,
+      "medianTotalKg": 557.71
+    },
+    {
+      "meetYear": "2007",
+      "meanTotalKg": 574.4464499999998,
+      "medianTotalKg": 558.96
+    },
+    {
+      "meetYear": "2008",
+      "meanTotalKg": 616.9297499999998,
+      "medianTotalKg": 606.525
+    },
+    {
+      "meetYear": "2009",
+      "meanTotalKg": 666.7745500000002,
+      "medianTotalKg": 655.44
+    },
+    {
+      "meetYear": "2010",
+      "meanTotalKg": 698.51685,
+      "medianTotalKg": 685
+    },
+    {
+      "meetYear": "2011",
+      "meanTotalKg": 716.8812000000001,
+      "medianTotalKg": 705
+    },
+    {
+      "meetYear": "2012",
+      "meanTotalKg": 738.1637500000002,
+      "medianTotalKg": 730
+    },
+    {
+      "meetYear": "2013",
+      "meanTotalKg": 759.0386,
+      "medianTotalKg": 749.2149999999999
+    },
+    {
+      "meetYear": "2014",
+      "meanTotalKg": 785.3056500000001,
+      "medianTotalKg": 774.185
+    },
+    {
+      "meetYear": "2015",
+      "meanTotalKg": 808.2675499999996,
+      "medianTotalKg": 790
+    },
+    {
+      "meetYear": "2016",
+      "meanTotalKg": 809.9763999999999,
+      "medianTotalKg": 800
+    },
+    {
+      "meetYear": "2017",
+      "meanTotalKg": 817.5487000000003,
+      "medianTotalKg": 807.5
+    },
+    {
+      "meetYear": "2018",
+      "meanTotalKg": 822.37385,
+      "medianTotalKg": 812.2149999999999
+    },
+    {
+      "meetYear": "2019",
+      "meanTotalKg": 838.3508000000002,
+      "medianTotalKg": 825
+    },
+    {
+      "meetYear": "2020",
+      "meanTotalKg": 808.63775,
+      "medianTotalKg": 796.25
+    },
+    {
+      "meetYear": "2021",
+      "meanTotalKg": 834.7925000000001,
+      "medianTotalKg": 827.5
+    },
+    {
+      "meetYear": "2022",
+      "meanTotalKg": 836.15535,
+      "medianTotalKg": 827.5
+    },
+    {
+      "meetYear": "2023",
+      "meanTotalKg": 845.0386,
+      "medianTotalKg": 834
+    },
+    {
+      "meetYear": "2024",
+      "meanTotalKg": 830.9457000000002,
+      "medianTotalKg": 823.75
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+    "75kg": [
+      {
+        "meetYear": "2004",
+        "totalLifters": 112
+      },
+      {
+        "meetYear": "2005",
+        "totalLifters": 168
+      },
+      {
+        "meetYear": "2006",
+        "totalLifters": 106
+      },
+      {
+        "meetYear": "2007",
+        "totalLifters": 202
+      },
+      {
+        "meetYear": "2008",
+        "totalLifters": 240
+      },
+      {
+        "meetYear": "2009",
+        "totalLifters": 440
+      },
+      {
+        "meetYear": "2010",
+        "totalLifters": 605
+      },
+      {
+        "meetYear": "2011",
+        "totalLifters": 984
+      },
+      {
+        "meetYear": "2012",
+        "totalLifters": 1292
+      },
+      {
+        "meetYear": "2013",
+        "totalLifters": 1982
+      },
+      {
+        "meetYear": "2014",
+        "totalLifters": 3020
+      },
+      {
+        "meetYear": "2015",
+        "totalLifters": 4265
+      },
+      {
+        "meetYear": "2016",
+        "totalLifters": 5229
+      },
+      {
+        "meetYear": "2017",
+        "totalLifters": 5841
+      },
+      {
+        "meetYear": "2018",
+        "totalLifters": 6616
+      },
+      {
+        "meetYear": "2019",
+        "totalLifters": 7123
+      },
+      {
+        "meetYear": "2020",
+        "totalLifters": 3231
+      },
+      {
+        "meetYear": "2021",
+        "totalLifters": 5223
+      },
+      {
+        "meetYear": "2022",
+        "totalLifters": 7425
+      },
+      {
+        "meetYear": "2023",
+        "totalLifters": 9442
+      },
+      {
+        "meetYear": "2024",
+        "totalLifters": 5433
+      }
+    ],
+    "82.5kg": [
+      {
+        "meetYear": "2004",
+        "totalLifters": 150
+      },
+      {
+        "meetYear": "2005",
+        "totalLifters": 191
+      },
+      {
+        "meetYear": "2006",
+        "totalLifters": 163
+      },
+      {
+        "meetYear": "2007",
+        "totalLifters": 228
+      },
+      {
+        "meetYear": "2008",
+        "totalLifters": 314
+      },
+      {
+        "meetYear": "2009",
+        "totalLifters": 506
+      },
+      {
+        "meetYear": "2010",
+        "totalLifters": 730
+      },
+      {
+        "meetYear": "2011",
+        "totalLifters": 1223
+      },
+      {
+        "meetYear": "2012",
+        "totalLifters": 1675
+      },
+      {
+        "meetYear": "2013",
+        "totalLifters": 2432
+      },
+      {
+        "meetYear": "2014",
+        "totalLifters": 3850
+      },
+      {
+        "meetYear": "2015",
+        "totalLifters": 5306
+      },
+      {
+        "meetYear": "2016",
+        "totalLifters": 6516
+      },
+      {
+        "meetYear": "2017",
+        "totalLifters": 7423
+      },
+      {
+        "meetYear": "2018",
+        "totalLifters": 8501
+      },
+      {
+        "meetYear": "2019",
+        "totalLifters": 9188
+      },
+      {
+        "meetYear": "2020",
+        "totalLifters": 4083
+      },
+      {
+        "meetYear": "2021",
+        "totalLifters": 6905
+      },
+      {
+        "meetYear": "2022",
+        "totalLifters": 9719
+      },
+      {
+        "meetYear": "2023",
+        "totalLifters": 11886
+      },
+      {
+        "meetYear": "2024",
+        "totalLifters": 7037
+      }
+    ],
+    "90kg": [
+      {
+        "meetYear": "2004",
+        "totalLifters": 150
+      },
+      {
+        "meetYear": "2005",
+        "totalLifters": 196
+      },
+      {
+        "meetYear": "2006",
+        "totalLifters": 184
+      },
+      {
+        "meetYear": "2007",
+        "totalLifters": 247
+      },
+      {
+        "meetYear": "2008",
+        "totalLifters": 348
+      },
+      {
+        "meetYear": "2009",
+        "totalLifters": 559
+      },
+      {
+        "meetYear": "2010",
+        "totalLifters": 834
+      },
+      {
+        "meetYear": "2011",
+        "totalLifters": 1311
+      },
+      {
+        "meetYear": "2012",
+        "totalLifters": 1783
+      },
+      {
+        "meetYear": "2013",
+        "totalLifters": 2607
+      },
+      {
+        "meetYear": "2014",
+        "totalLifters": 3931
+      },
+      {
+        "meetYear": "2015",
+        "totalLifters": 5064
+      },
+      {
+        "meetYear": "2016",
+        "totalLifters": 5953
+      },
+      {
+        "meetYear": "2017",
+        "totalLifters": 6567
+      },
+      {
+        "meetYear": "2018",
+        "totalLifters": 7689
+      },
+      {
+        "meetYear": "2019",
+        "totalLifters": 8155
+      },
+      {
+        "meetYear": "2020",
+        "totalLifters": 3912
+      },
+      {
+        "meetYear": "2021",
+        "totalLifters": 6498
+      },
+      {
+        "meetYear": "2022",
+        "totalLifters": 9107
+      },
+      {
+        "meetYear": "2023",
+        "totalLifters": 10806
+      },
+      {
+        "meetYear": "2024",
+        "totalLifters": 6444
+      }
+    ],
+    "100kg": [
+      {
+        "meetYear": "2004",
+        "totalLifters": 135
+      },
+      {
+        "meetYear": "2005",
+        "totalLifters": 176
+      },
+      {
+        "meetYear": "2006",
+        "totalLifters": 192
+      },
+      {
+        "meetYear": "2007",
+        "totalLifters": 271
+      },
+      {
+        "meetYear": "2008",
+        "totalLifters": 354
+      },
+      {
+        "meetYear": "2009",
+        "totalLifters": 584
+      },
+      {
+        "meetYear": "2010",
+        "totalLifters": 821
+      },
+      {
+        "meetYear": "2011",
+        "totalLifters": 1386
+      },
+      {
+        "meetYear": "2012",
+        "totalLifters": 1922
+      },
+      {
+        "meetYear": "2013",
+        "totalLifters": 2907
+      },
+      {
+        "meetYear": "2014",
+        "totalLifters": 4399
+      },
+      {
+        "meetYear": "2015",
+        "totalLifters": 6280
+      },
+      {
+        "meetYear": "2016",
+        "totalLifters": 7552
+      },
+      {
+        "meetYear": "2017",
+        "totalLifters": 8401
+      },
+      {
+        "meetYear": "2018",
+        "totalLifters": 9608
+      },
+      {
+        "meetYear": "2019",
+        "totalLifters": 10746
+      },
+      {
+        "meetYear": "2020",
+        "totalLifters": 4983
+      },
+      {
+        "meetYear": "2021",
+        "totalLifters": 8349
+      },
+      {
+        "meetYear": "2022",
+        "totalLifters": 10629
+      },
+      {
+        "meetYear": "2023",
+        "totalLifters": 12362
+      },
+      {
+        "meetYear": "2024",
+        "totalLifters": 7615
+      }
+    ]
+  }
