@@ -9,7 +9,7 @@ session = boto3.Session(profile_name=profile_name)
 
 # Initialize the DynamoDB resource using the session
 dynamodb = session.resource('dynamodb', region_name='us-east-1')
-table_name = "openpowerlifting-data"
+table_name = "openpowerlifting-full"
 table = dynamodb.Table(table_name)
 
 def safe_convert_to_int(value):
@@ -39,8 +39,6 @@ def filter_and_prepare_item(row):
         "Equipment": row['Equipment'],
         "Age": safe_convert_to_int(row['Age']),
         "AgeClass": row['AgeClass'],
-        "BirthYearClass": row['BirthYearClass'],
-        "Division": row['Division'],
         "BodyweightKg": safe_convert_to_decimal(row['BodyweightKg']),
         "WeightClassKg": safe_convert_to_decimal(row['WeightClassKg']),
         "TotalKg": safe_convert_to_decimal(row['TotalKg']),
@@ -78,4 +76,4 @@ def process_csv(file_path):
             print("No items matched the filter criteria.")
 
 # Example usage
-process_csv('highestmeetyear_powerlifting_data.csv')
+process_csv('sbd_2010.csv')

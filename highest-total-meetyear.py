@@ -20,10 +20,10 @@ def filter_and_prepare_item(row):
     meet_year_int = safe_convert_to_int(meet_year)
 
     # Apply filters
-    if (meet_year_int >= 2004 and
-        row['Sex'] == 'M' and
-        row['Event'] == 'SBD' and
-        row['Equipment'] in ['Raw', 'Wraps']):
+    if (meet_year_int >= 2010 and
+        # row['Sex'] == 'M' and
+        row['Event'] == 'SBD'):
+        # row['Equipment'] in ['Raw', 'Wraps']):
 
         # Prepare the item to be written to new CSV
         item = {
@@ -31,9 +31,7 @@ def filter_and_prepare_item(row):
             "MeetYear": meet_year_int,
             "Equipment": row['Equipment'],
             "Age": safe_convert_to_int(row['Age']),
-            "AgeClass": row['AgeClass'],
-            "BirthYearClass": row['BirthYearClass'],
-            "Division": row['Division'],
+            "AgeClass": row['AgeClass'] if row['AgeClass'] else 'unknown',
             "BodyweightKg": safe_convert_to_decimal(row['BodyweightKg']),
             "WeightClassKg": safe_convert_to_decimal(row['WeightClassKg']),
             "TotalKg": safe_convert_to_decimal(row['TotalKg']),
@@ -85,5 +83,5 @@ def process_csv(input_file_path, output_file_path):
 
 # Example usage
 input_file_path = 'powerlifting_data.csv'
-output_file_path = 'highestmeetyear_powerlifting_data.csv'
+output_file_path = 'sbd_2010.csv'
 process_csv(input_file_path, output_file_path)
