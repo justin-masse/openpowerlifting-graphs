@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Load the data from the JSON file
-with open('weightclass-data.json', 'r') as file:
+with open('18-19AgeClass.json', 'r') as file:
     data = json.load(file)
 
 # Create a new figure
@@ -35,12 +35,12 @@ for i, weight_class in enumerate(weight_classes):
 # Add labels and title
 plt.xlabel('Meet Year')
 plt.ylabel('Total Kg')
-plt.title('Average Total Kg by Weight Class Over 20 Years (top 200 lifters in each class)')
+plt.title('Average Total Kg by 18-19 age class since 2010 (top 50 lifters in each weight class)')
 plt.legend()
 plt.grid(True)
 
 # Save the plot to a file
-plt.savefig('weightclass_plot.png')
+plt.savefig('18-19AgeClass-plot.png')
 
 # Show the plot
 plt.show()
